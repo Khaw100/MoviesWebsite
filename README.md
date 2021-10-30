@@ -1,5 +1,6 @@
-Movies Website
-![Main.PNG](assets/Main.PNG)
+# MoviesWebsite
+
+![Main.PNG](FrontEnd/assets/Main.PNG)
 
 Pada project kali ini saya membuat sebuah Movies Website dengan memanfaatkan data movies yang saya buat dan memanfaatkannya dengan javascript untuk mengaksesnya
 , dengan beberapa fitur:
