@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="shortcut icon" href="assets/gdsc.png" type="image/png" sizes="16x16">
+    <title>GDSC CINEMA</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src=".\assets\gd.svg" alt="logo" class="logo">
+        </div>
+        <a class="title">GDSC CINEMA</a>
+        <input type="text"name="searchBar" id="searchBar" placeholder="Search">
+        <a href="#series">Series</a>
+        <a href="#movies">Movies</a>
+        <a href="#anime">Anime</a>
+        <a href="#trending">Trending</a>
+        <a href="http://127.0.0.1:5500/index.html">Home</a>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="content"
+            style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('assets/pancreas.jpg');"
+            >
+                <div class="title">
+                I WANT TO EAT YOUR PANCREAS
+                </div>
+                <p class="desc">
+                An aloof boy comes across a book in a hospital waiting room. He soon discovers that it is a diary kept by his very popular classmate who reveals to him that she is secretly suffering from a fatal pancreatic illness.
+                </p>
+                <button  class="featured-button" >
+                    <a onclick="location.href='http://127.0.0.1:5500/watchpancreas.html'" target="_blank"> WATCH </a>
+                </button>
+            </div>
+            <ul id="mvList"></ul>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">ANIME</h1>
+                <div class="movie-list-slider">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="assets/violet.jpg" alt="evergarden">
+                            <span class="movie-list-item-title">VIOLET EVERGARDEN</span>
+                            <button class="movie-list-item-button">
+                                <a onclick="location.href='http://127.0.0.1:5500/watch.html'" target="_blank"> WATCH </a>
+                            </button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="assets/helloworld.jpg" alt="evergarden">
+                            <span class="movie-list-item-title">HELLO WORLD</span>
+                            <button class="movie-list-item-button">
+                                <a onclick="location.href='http://127.0.0.1:5500/watchhello.html'" target="_blank"> WATCH </a>
+                            </button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="assets/silent.jpg" alt="evergarden">
+                            <span class="movie-list-item-title">SILENT VOICE</span>
+                            <button class="movie-list-item-button">
+                                <a onclick="location.href='http://127.0.0.1:5500/watchsilent.html'" target="_blank"> WATCH </a>
+                            </button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="assets/name.jpg" alt="evergarden">
+                            <span class="movie-list-item-title">YOUR NAME</span>
+                            <button class="movie-list-item-button">
+                                <a onclick="location.href='http://127.0.0.1:5500/watchname.html'" target="_blank"> WATCH </a>
+                            </button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="assets/pancreas.jpg" alt="evergarden">
+                            <span class="movie-list-item-title">I WANT TO EAT YOUR PANCREAS</span>
+                            <button class="movie-list-item-button">
+                                <a onclick="location.href='http://127.0.0.1:5500/watchpancreas.html'" target="_blank"> WATCH </a>
+                            </button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"> </script>
+</body>
+</html>
